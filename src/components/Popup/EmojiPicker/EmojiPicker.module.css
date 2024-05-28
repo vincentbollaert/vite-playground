@@ -1,0 +1,21 @@
+.toggleButton {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  justify-content: center;
+  display: flex;
+
+  &.isActive {
+    background-color: transparent;
+  }
+
+  * {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.emojiPicker {
+  position: absolute !important;
+}

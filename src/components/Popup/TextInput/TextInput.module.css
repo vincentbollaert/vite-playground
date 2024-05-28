@@ -1,0 +1,24 @@
+.textInput {
+  border: none;
+  outline: none;
+  &::-webkit-outer-spin-button,
+  &::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+}
+
+.wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.textInput {
+  padding: 10px;
+  border-radius: 16px;
+}
+
+.suffixWrap {
+  position: absolute;
+  right: 10px;
+}

@@ -1,0 +1,9 @@
+.button {
+  line-height: 1;
+  font-family: inherit;
+  text-transform: inherit;
+  font-weight: inherit;
+  text-align: inherit;
+  outline: none;
+  border: none;
+}

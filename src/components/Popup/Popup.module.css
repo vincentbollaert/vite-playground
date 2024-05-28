@@ -1,0 +1,48 @@
+.popup {
+  position: fixed;
+  transform: translate(-17px, -17px);
+
+  &.isOpen {
+    .content {
+      display: flex;
+    }
+  }
+
+  &.isFixed {
+    &:hover {
+      .content {
+        display: flex;
+      }
+    }
+  }
+}
+
+.toggleButton {
+  background-color: #fff;
+  border-radius: 50%;
+  border-top-left-radius: 0;
+  width: 34px;
+  height: 34px;
+  box-shadow: 1px 1px 3px 0px #837f7f, 2px 3px 0 1px #f168c1;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.content {
+  display: none;
+  padding: 8px;
+  border-radius: 16px;
+
+  &.isActive {
+    background-color: #f168c1;
+  }
+}
+
+.submitButton {
+  background-color: #fff;
+  padding: 4px;
+  margin-left: 4px;
+  border-radius: 16px;
+}

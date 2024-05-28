@@ -1,0 +1,25 @@
+html {
+  height: 100%;
+  background-color: #000;
+  color: #444;
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-size: 1.2rem;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+}
